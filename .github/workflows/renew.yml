@@ -2,7 +2,7 @@ name: Katabump-Renew
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *'
+    - cron: '21 5 * * *'
 jobs:
   run_katabump_renew:
     runs-on: ubuntu-latest
